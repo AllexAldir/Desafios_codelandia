@@ -3,3 +3,5 @@
 Aqui aonde irei solucionar desafios aonde a comunidade "Codelândia" está propondo
 
 <a href="https://allexaldir.github.io/Desafios_codelandia/" target="_blank">Aqui está o link do desafio01</a>
+
+site Jordan: https://allexaldir.github.io/Desafios_codelandia/desafio02/index.html
