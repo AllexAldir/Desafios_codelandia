@@ -127,9 +127,18 @@ section.flex {
 
     }
 
+    section.flex{
+        width: 50%;
+    }
+
     div#cabecalho{
         width: 100%;
         margin-left: 0;
+
     }
 
+    .sub_div > img{ 
+        width: 15em;
+
+    }
 }
