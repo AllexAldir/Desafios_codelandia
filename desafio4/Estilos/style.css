@@ -137,3 +137,7 @@ div.welcome {
 
     cursor: pointer;
 }
+
+.custom-input{
+    width: 22em; /*Aqui mostra como vai ficar a largura agora so falta*/
+}
