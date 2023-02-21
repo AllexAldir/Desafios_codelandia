@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'lato fort';
+    src: url(../fontes/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'lato regular';
+    src: url(../fontes/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Merriweather regular';
+    src: url(../fontes/Merriweather-Regular.ttf);
+}
+
+:root {
+    --font01: 'lato fort';
+    --font02: 'lato regular';
+    --font03: 'Merriweather regular';
+}
+
+/*Começando trabalho com flex*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100vh;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+
+section.image {
+    background-color: rgba(128, 128, 128, 0.068);
+    height: 100%;
+    display: flex;
+    width: 50%;
+
+}
+
+.img {
+    width: 50%;
+    margin: auto;
+
+}
+
+.img>img {
+    width: 100%;
+}
+
+div.form_ {
+    width: 50%;
+    display: flex;
+
+}
+
+.segund_sec {
+    width: 50%;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.terc_sec {
+    width: 60%;
+    margin: auto;
+
+}
+
+
+div.welcome {
+    margin-bottom: 1em;
+    line-height: 1.5em;
+}
+
+#principal>.p01 {
+    margin: 0.5em 0 0.5em 0;
+}
+
+.flex_ {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+
+    /* background-color: aqua; */
+}
+
+.flex_>div {
+    /* border: 1px solid black; */
+    margin-right: 1em;
+}
+
+.botao {
+    margin: 1em 0 1em 0;
+
+}
+
+#bt01>input {
+    width: 20em;
+    padding: 1em;
+    border-radius: 4px;
+
+    /*Estilos agora!*/
+    background-color: #04c35c;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+#bt02{
+    width: 16.6em;
+    padding: 1em;
+    border-radius: 4px;
+
+    /*Estilos agora !*/
+    background-color: black;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+}
