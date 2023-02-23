@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Semi-bold';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Black';
+    src: url(../fonts/Poppins-Black.ttf);
+}
+
+
+:root {
+    --cor01: #1A4855;
+    --cor02: #628E75;
+    --cor03: #F9F9F9;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    height: 100%;
+
+    background-image: linear-gradient(to top left, #1A4855, #628E75)
+}
+
+body {
+    height: 100%;
+
+}
+
+header {
+    border: 1px solid black;
+    height: 20%
+}
+
+
+
+main.flex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    grid-gap: 2em;
+}
+
+.sec_01,
+.sec02 {
+    border: 1px solid black;
+    margin-top: 1em;
+
+}
+
+
+
+.sec_01 {
+    width: 50%;
+    padding: 1em;
+
+    color: white;
+}
+
+/*Colocando css em todos os elementos do sec01*/
+
+/*-------------------------------------------------*/
+
+.sec_01 > h2 {
+    font-family: 'Semi-bold';
+    font-size: 1em;
+}
+
+.sec_01 > h1 {
+    font-family: 'bold';
+    font-size: 2.6em;
+    line-height: 1.2em;
+}
+
+.sec_01 > p{
+    font-family: 'Regular';
+    font-size: 14px;
+    margin-top: 1em;
+}
+
+.sec02 {
+    width: 50%;
+}
+
+.sec02>img {
+    width: 100%;
+    display: block;
+
+}
